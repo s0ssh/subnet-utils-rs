@@ -1,6 +1,21 @@
 [package]
 name = "subnet-utils"
 version = "0.1.0"
+license = "MIT"
+authors = ["s0s <me@s0s.sh>"]
 edition = "2024"
 
+description = "A Rust subnet utility library"
+readme = "README.md"
+repository = "https://github.com/s0ssh/subnet-utils-rs"
+#documentation: TODO!
+homepage = "https://github.com/s0ssh/subnet-utils-rs"
+
+categories = ["network-programming"]
+keywords = ["subnet", "network", "address", "cidr"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
 [dependencies]
+netaddr2 = "0.10.0"
